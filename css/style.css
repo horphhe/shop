@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'brizeuxgras';
+    src: url('brizeux_gras-webfont.woff2') format('woff2'),
+         url('brizeux_gras-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	font-family: 'brizeuxnormal';
+    src: url('brizeux_normal-webfont.woff2') format('woff2'),
+         url('brizeux_normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	font-family: 'brizeuxitalic';
+    src: url('brizeux_italic-webfont.woff2') format('woff2'),
+         url('brizeux_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 h1 {
-font-size:40px;
+	font-size: 50px;
+	font-family: brizeuxgras;
 }
