@@ -27,9 +27,8 @@ body {
     margin: 0;
     width: 100vw;
     min-height: 100vh; 
-    background: linear-gradient(217deg, rgb(229 51 138 / 80%), rgba(255,0,0,0) 60.71%),
-            linear-gradient(127deg, rgb(255 255 255 / 80%), rgba(0,255,0,0) 80.71%),
-            linear-gradient(336deg, #6a5acd, rgba(0,0,255,0) 90.71%);
+    background: linear-gradient(127deg, rgb(255 255 255 / 80%), rgba(0,255,0,0) 5%),
+            linear-gradient(336deg, #6a5acd, rgba(0,0,255,0) 90%);
     color: white;
     text-align: center;
     font-family: 'brizeuxnormal', sans-serif;
@@ -72,6 +71,7 @@ footer {
 }
 
 footer a {
+    font-size: small;
     color: #ffffff;
     text-decoration: none;
 }
@@ -79,6 +79,26 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.horizontal-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; 
+    gap: 50px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+}
+
+.horizontal-list a {
+    text-decoration: none; 
+    color: white;
+    padding: 10px;
+}
+
 
 
 
