@@ -103,6 +103,20 @@ footer a:hover {
     padding: 10px;
 }
 
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; /* espace entre les images */
+    max-width: 800px; /* largeur maximale de la grille */
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* ajuste l'image pour remplir le conteneur sans la déformer */
+}
+
 
 
 
