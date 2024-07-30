@@ -118,6 +118,26 @@ footer a:hover {
 }
 
 
+.image-item {
+  text-align: center;
+}
+
+.caption {
+  margin-top: 0px;
+}
+
+.caption h3 {
+  margin: 5px 0;
+  font-size: 1.2em;
+  color: white;
+}
+
+.caption p {
+  margin: 0;
+  font-size: 1em;
+  color: #3e3288;
+}
+
 
 
 
