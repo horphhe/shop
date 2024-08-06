@@ -32,9 +32,7 @@ body {
             linear-gradient(336deg, #6a5acd, rgba(0,0,255,0) 90.71%);
     color: white;
     text-align: center;
-    font-family:'brizeuxnormal';
-    margin: 0;
-    padding: 0;
+    font-family: 'brizeuxnormal';
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -61,6 +59,8 @@ header {
 main {
     flex: 1;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
@@ -119,6 +119,11 @@ img:active {
 @keyframes growShrink {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.1); }
+}
+
+.image-grid-container {
+    display: flex;
+    justify-content: center;
 }
 
 .image-grid {
