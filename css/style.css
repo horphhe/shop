@@ -103,6 +103,15 @@ footer a:hover {
     padding: 10px;
 }
 
+img:active {
+  animation: growShrink 0.5s ease, flash 0.5s ease;
+}
+
+@keyframes growShrink {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
